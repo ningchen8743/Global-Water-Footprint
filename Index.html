@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!--COLORS:GREEN #85B645  BLUE #71BABF  MAGENTA #BA6DF0  YELLOW #FFCD71  GRAY #877D77   RED #DD6553-->
         <!-------FADE IN STARTS FOR WATER FOOTPRINT-------->
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
         <!------------------------------------------------CSS BEGINS-------------------------------------------->
         <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="extra.css">
@@ -17,35 +17,40 @@
     <body>
         <header>
             <!-------------------WATER TITLE----------------->
-            <video width="1200" height="500" id="opening" autoplay playsinline muted loop preload poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/oceanshot.jpg">
+            <video width="100%" id="video-opening" autoplay playsinline muted loop preload poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/oceanshot.jpg">
                 <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/ocean-small.webm" />
                 <source src="http://thenewcode.com/assets/videos/ocean-small.mp4" />
             </video>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" id="my-svg">
                 <defs>
-                    <mask id="mask" x="0" y="0" width="100%" height="100%" >
-
-                        <text class="ocean" id="bigtitle"
-                            x="77"  y="30">Global Water Footprints
+                    <!-- used to remove the unsightly black area on the bottom of the video that cannot be hidden by the white rectangle veil -->
+                    <clipPath id="video-clipPath">
+                        <rect x="0" y="0" width="100%" height="90%"/>
+                    </clipPath>
+                </defs>
+                <defs>
+                    <!-- add text to rectangle veil such that area within the text is masked out (so that the video can be seen through) -->
+                    <!-- whereas area outside the text remains (so that the video cannot be seen) -->
+                    <mask id="my-mask" x="0" y="0" width="100%" height="100%" >
+                        <rect x="0" y="0" width="100%" height="100%" fill="#ffffff"/>
+                        <text class="ocean" x="50%" y="40%" fill="#000000" text-anchor="middle">
+                            Global Water Footprints
                         </text>
-                        <text class="ocean2"
-                            x="100"  y="40">The lead-up to a water crisis
+                        <text class="ocean2" x="50%" y="60%" fill="#000000" text-anchor="middle">
+                            The lead-up to a water crisis
                         </text>
                     </mask>
-                </defs>				
-				
-                <rect x="0" y="0" width="100%" height="100%" />
-				<use x="77"  y="30" xlink:href="#bigtitle" fill="url('#opening')" />
-				
+                </defs>
+                <!-- white rectangle veil -->
+                <rect id="veil" width="100%" height="100%" x="0" y="0" style="fill:#ffffff" mask="url('#my-mask')"/>
             </svg>
         </header>
-		<br>
         <!-------------------BOUNCING ARROW------------------>
-        <a href="#title2">
-            <div class="downArrow bounce">
-                <img width="50" height="50" alt="" src="images/waterdrop.svg"/>
-            </div>
-        </a>
+        <!-- <a href="#title2"> -->
+        <!-- <div class="downArrow bounce"> -->
+        <!-- <img width="50" height="50" alt="" src="images/waterdrop.svg"/> -->
+        <!-- </div> -->
+        <!-- </a> -->
         <!---------------------INTRO TEXT-------------------->
         <div>
             <h3 class="title1" id="title2">How long will water be the most abundant resource on the planet?</h3>
@@ -63,7 +68,6 @@
             <p class="vital2">
                 Similar to the carbon footprint concept, a water footprint is defined as the total volume of freshwater used, directly and indirectly, to produce the goods and services consumed. Water footprints of consumption serve as one important indicator to measure and understand world water use.
             </p>
-			<br>
         </div>
         <br>
         <!----------------------------------------VIZ 1 TITLE ----------------------------------------->
@@ -192,30 +196,24 @@
                 </div>
             </div>
         </section>
+        <section id='s1'>
         <section>
             <h3 id="deepdive" class="title1">The last drop
             </h3>
-            <h5 class="deep">Human populations can’t develop without consuming water for their health, wellbeing, and prosperity.
-            </h5>
+            <h5 class="deep">Human populations can’t develop without consuming water for their health, wellbeing, and prosperity.</h5>
         </section>
         <!----------------------------------------VIZ 3 STARTS----------------------------------------->
-
         <div id="dataviz3">
-            <div id="trending">
+            <div id="content">
                 <img src="VIZ3.svg" alt="Visualization 3">
             </div>
         </div>
-		<br>
-		<br>
-		<br>
         <section>
             <h3 class="title1">Water crisis under the surface</h3>
             <p class="vital">As countries grow their prosperity through GDP and their populations grow larger, these trends come with the cost of jeopardizing renewable water resources faster than they can be replenished through natural cycles. Many countries are on a path to running out completely within the next 75 years.</p>
             <p class="vital">Water awareness is the first step. What will you be able to do? You can become involved in deciding how you and your community, and your country, make best use of water resources. The biggest footprint is in agriculture. What do you eat? Where is it grown? When we know the hidden water costs of producing the goods and services we use, we can help decide the future of the industries that build economies.</p>
-            <br>
-            <br>
-			<br>
-			<br>
+            </br>
+            </br>
         </section>
         </div>
         </div>
