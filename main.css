@@ -8,20 +8,20 @@
 #intro-div{
 	height: 100vh;
 }
+
 .vital {
-  padding-left: 360px;
-  padding-right: 360px;
+  padding-left: 25vw;
+  padding-right: 25vw;
   text-align: justify;
   margin-top:40px;
 }
 
 .vital2 {
-  padding-left: 360px;
-  padding-right: 360px;
+  padding-left: 25vw;
+  padding-right: 25vw;
   text-align: justify;
   margin-top: 10px;
 }
-
 
 /*-------GENERAL-------*/
 html,body{
@@ -58,6 +58,14 @@ h3 {
   padding-bottom: 40px;
 }
 
+h5 {
+  font-family: montserrat, sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 0px;
+}
+
 p {
   font-family: montserrat, sans-serif;
   font-style: normal;
@@ -74,9 +82,9 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 84%;
+  width: 85%;
   background-color: white;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 
@@ -84,20 +92,33 @@ p {
 
 .title11 {
   font-size: 38px;
-/*   text-align: center;  
-  padding-top: 300px;
-  padding-bottom: 380px; */
-  color: white; 
+  text-align: center;
+  position: relative;  
+  color: white;
+  padding-top: 35vh;
+  padding-bottom: 0vh;
 }
 
-.deep {  
-/*   text-align: center;
-  padding-bottom: 250px;
-  margin-top: -455px; */
+.deep {
+  position: relative;
   color: white;
 }
 
-#teal-title{
+#teal-title1 {
+	height: 100vh;
+	background-color: #71BABF;
+	margin-right: -200px;
+	margin-left: -200px;
+}
+
+#teal-title2 {
+	height: 100vh;
+	background-color: #71BABF;
+	margin-right: -200px;
+	margin-left: -200px;
+}
+
+#teal-title3 {
 	height: 100vh;
 	background-color: #71BABF;
 	margin-right: -200px;
@@ -106,30 +127,15 @@ p {
 
 /*------ VIZ 1 PARAGRAPH ------*/
 
+#viz1-explain{
+	height: 70vh;	
+}
 .viz1text {
-	margin-top: 1110px;
-	width: 70%;
-	text-align: justify;
-	padding-left: 360px;
+	padding-left: 25vw;
+	padding-right: 25vw;
 	background-color: white;
 }
 
-.viz1text2 {
-width: 70%;
-text-align: justify;
-padding-left: 360px;
-background-color: white;
-}
-
-.viz1text3 {
-width: 70%;
-text-align: justify;
-padding-left: 360px;
-float: left;
-background-color: white;
-margin-bottom:100px;
-margin-top:-1px;
-}
 
 /*-------- VIZ 2 SVG -------*/
 
@@ -211,13 +217,9 @@ a {
 /*---- VIZ 2 TEAL TITLE ----*/
 
 #deepdive{
-  margin-right: -200px;
-  padding-top: 350px;
-  padding-bottom: 350px;
-  margin-left: -200px;
+  padding-top: 35vh;
+  padding-bottom: 0vh;
   color: white;
-  background-color: #71BABF;
-  margin-bottom:100px;
 }
 
 /*-----------VIZ 3-----------*/
@@ -278,10 +280,9 @@ a {
   position: relative;
   left: 47%;
   right: 47%;
-  top: -20%;
+  top: 100%;
   cursor:crosshair;
 }
-
 
 .downArrow:hover {
  color:#85B645 ;
@@ -302,6 +303,27 @@ a {
   -moz-animation: bounce 3s infinite;
   -webkit-animation: bounce 3s infinite;
   animation: bounce 3s infinite;
+}
+
+#opening-arrow{
+	position:absolute;
+	top:90%;
+}
+
+#introduction-arrow{
+	bottom:-10vh;
+}
+
+#viz1-arrow{
+	bottom:-20vh;
+}
+
+#title2-arrow{
+	bottom:-10vh;
+}
+
+#viz2-arrow{
+	bottom:-20vh;
 }
 
 @-moz-keyframes bounce {
