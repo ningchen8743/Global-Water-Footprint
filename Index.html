@@ -32,7 +32,7 @@
                     <!-- add text to rectangle veil such that area within the text is masked out (so that the video can be seen through) -->
                     <!-- whereas area outside the text remains (so that the video cannot be seen) -->
                     <mask id="my-mask" x="0" y="0" width="100%" height="100%" >
-					<!-- The <mask> element defines an alpha mask for compositing the current object into the background. -->
+                    <!-- The <mask> element defines an alpha mask for compositing the current object into the background. -->
                         <rect x="0" y="0" width="100%" height="100%" fill="#ffffff"/>
                         <text class="ocean" x="50%" y="45%" fill="#000000" text-anchor="middle">
                             Global Water Footprints
@@ -45,14 +45,13 @@
                 <!-- white rectangle veil -->
                 <rect id="veil" width="100%" height="100%" x="0" y="0" style="fill:#ffffff" mask="url('#my-mask')"/>
             </svg>
-		
+            <!-------------------BOUNCING ARROW------------------>
+            <a href="#title2">
+                <div id ="opening-arrow" class="downArrow bounce">
+                    <img width="50" height="50" alt="" src="images/waterdrop.svg"/>
+                </div>
+            </a>
         </header>
-        <!-------------------BOUNCING ARROW------------------>
-        <a href="#title2">
-			<div id ="opening-arrow" class="downArrow bounce">
-				<img width="50" height="50" alt="" src="images/waterdrop.svg"/>
-			</div>
-		</a>
         <!---------------------INTRO TEXT-------------------->
         <div id="intro-div">
             <h3 class="title1" id="title2">How long will water be the most abundant resource on the planet?</h3>
@@ -63,31 +62,31 @@
             </p>
             <!--  <p class="vital2">According to FAO, "Renewable water resources are computed on the basis of the water cycle” and represent “the long-term average annual flow of rivers (surface water) and groundwater.”
                 </p>
-                
+
                 <p class="vital2">
                 “Non-renewable water resources are groundwater bodies (deep aquifers) that have a negligible rate of recharge on the human time-scale and thus can be considered non-renewable.”
                 </p> -->
             <p class="vital2">
                 Similar to the carbon footprint concept, a water footprint is defined as the total volume of freshwater used, directly and indirectly, to produce the goods and services consumed. Water footprints of consumption serve as one important indicator to measure and understand world water use.
             </p>
-			<a href="#teal-title">
-			<div class="downArrow bounce">
-				<img width="50" height="50" alt="" src="images/waterdrop.svg"/>
-			</div>
-			</a>
+            <a href="#teal-title">
+            <div class="downArrow bounce">
+                <img width="50" height="50" alt="" src="images/waterdrop.svg"/>
+            </div>
+            </a>
         </div>
 
         <!----------------------------------------VIZ 1 TITLE ----------------------------------------->
         <div id="teal-title">
-			<h3 class="title11" x="50vw" y="40vh">A global overview</h3>
-			<h5 class="deep" x="50vw" y="50vh">We are consuming water unsustainably, at even twice the rate of population growth.</h5>
+            <h3 class="title11" x="50vw" y="40vh">A global overview</h3>
+            <h5 class="deep" x="50vw" y="50vh">We are consuming water unsustainably, at even twice the rate of population growth.</h5>
         <!-------------------BOUNCING ARROW------------------>
-			<a href="#viz1">
-				<div class="downArrow bounce">
-					<img width="50" height="50" alt="" src="images/waterdropwhite.svg"/>
-				</div>
-			</a>
-		</div>
+            <a href="#viz1">
+                <div class="downArrow bounce">
+                    <img width="50" height="50" alt="" src="images/waterdropwhite.svg"/>
+                </div>
+            </a>
+        </div>
         <!----------------------------------------VIZ 1 STARTS----------------------------------------->
         <section class="dataviz1section">
             <img id="viz1" class="dataviz1" src="VIZ1.svg" alt="Data Viz 1">

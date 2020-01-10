@@ -282,6 +282,13 @@ a {
   cursor:crosshair;
 }
 
+#opening-arrow{
+  position: absolute;
+  left: 47%;
+  right: 47%;
+  top: 90%;
+  cursor:crosshair;
+}
 
 .downArrow:hover {
  color:#85B645 ;
