@@ -51,8 +51,8 @@ h3 {
   font-family: montserrat, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 50px;
-  color: lightgray;
+  font-size: 34px;
+  color: white;
   text-align: center;
   padding-top: 60px;
   padding-bottom: 40px;
@@ -61,7 +61,7 @@ h3 {
 h5 {
   font-family: montserrat, sans-serif;
   font-style: normal;
-  font-size: 15px;
+  font-size: 17px;
   text-align: center;
   padding-top: 0px;
 }
@@ -90,11 +90,9 @@ p {
 
 /*----- VIZ 1 TEAL TITLE ------*/
 
-.title11 {
-  font-size: 38px;
+.title {
   text-align: center;
-  position: relative;  
-  color: white;
+  position: relative;    
   padding-top: 35vh;
   padding-bottom: 0vh;
 }
@@ -105,20 +103,6 @@ p {
 }
 
 #teal-title1 {
-	height: 100vh;
-	background-color: #71BABF;
-	margin-right: -200px;
-	margin-left: -200px;
-}
-
-#teal-title2 {
-	height: 100vh;
-	background-color: #71BABF;
-	margin-right: -200px;
-	margin-left: -200px;
-}
-
-#teal-title3 {
 	height: 100vh;
 	background-color: #71BABF;
 	margin-right: -200px;
@@ -216,27 +200,48 @@ a {
 
 /*---- VIZ 2 TEAL TITLE ----*/
 
-#deepdive{
+#deepdive {
   padding-top: 35vh;
   padding-bottom: 0vh;
   color: white;
 }
 
+#teal-title2 {
+	height: 100vh;
+	background-color: #71BABF;
+	margin-right: -200px;
+	margin-left: -200px;
+}
+
+/*---- VIZ 3 TEAL TITLE ----*/
+#lastdrop {
+  padding-top: 35vh;
+  padding-bottom: 0vh;
+  color: white;
+}
+
+#teal-title3 {
+	height: 100vh;
+	background-color: #71BABF;
+	margin-right: -200px;
+	margin-left: -200px;
+}
+
 /*-----------VIZ 3-----------*/
 
 #dataviz3 {
-  width: 1230px;
-  height: 670px;
+  width: 100vw;
+  height: 100vh;
   overflow: auto;
   padding-top:40px;
   min-width: 1000px;
 }
 
 
-#trending{
+#content{
 	padding-top:50px;
-	height: 500px;
-    width: 1470px;
+	height: 90vh;
+    width: 1370px;
     background-color: white;
 }
 
@@ -253,7 +258,6 @@ a {
 /*--------- ALL VIZ TITLES ----------*/
 
 .title1 {
-	font-size: 34px;
 	text-align: center;
 	color: #71BABF;
 	margin-top: 23px;
