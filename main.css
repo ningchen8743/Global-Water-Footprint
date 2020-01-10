@@ -5,6 +5,9 @@
 }
 
 /*--------- INTRODUCTION TEXT ---------*/
+#intro-div{
+	height: 100vh;
+}
 .vital {
   padding-left: 360px;
   padding-right: 360px;
@@ -18,6 +21,7 @@
   text-align: justify;
   margin-top: 10px;
 }
+
 
 /*-------GENERAL-------*/
 html,body{
@@ -80,23 +84,34 @@ p {
 
 .title11 {
   font-size: 38px;
-  text-align: center;
-  margin-right: -200px;
+/*   text-align: center;  
   padding-top: 300px;
-  padding-bottom: 380px;
-  margin-left: -200px;
+  padding-bottom: 380px; */
+  color: white; 
+}
+
+.deep {  
+/*   text-align: center;
+  padding-bottom: 250px;
+  margin-top: -455px; */
   color: white;
-  background-color: #71BABF;
+}
+
+#teal-title{
+	height: 100vh;
+	background-color: #71BABF;
+	margin-right: -200px;
+	margin-left: -200px;
 }
 
 /*------ VIZ 1 PARAGRAPH ------*/
 
 .viz1text {
-margin-top: 1110px;
-width: 70%;
-text-align: justify;
-padding-left: 360px;
-background-color: white;
+	margin-top: 1110px;
+	width: 70%;
+	text-align: justify;
+	padding-left: 360px;
+	background-color: white;
 }
 
 .viz1text2 {
@@ -194,13 +209,6 @@ a {
 }
 
 /*---- VIZ 2 TEAL TITLE ----*/
-
-.deep {
-  margin-top: -455px;
-  text-align: center;
-  margin-bottom: 290px;
-  color: white;
-}
 
 #deepdive{
   margin-right: -200px;
