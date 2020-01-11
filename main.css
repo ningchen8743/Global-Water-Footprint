@@ -1,123 +1,131 @@
-*, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
+
 /*--------- INTRODUCTION TEXT ---------*/
-#intro-div{
-	height: 100vh;
+
+#intro-div {
+    height: 100vh;
 }
 
 .vital {
-  padding-left: 25vw;
-  padding-right: 25vw;
-  text-align: justify;
-  margin-top:40px;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    text-align: justify;
+    margin-top: 40px;
 }
 
 .vital2 {
-  padding-left: 25vw;
-  padding-right: 25vw;
-  text-align: justify;
-  margin-top: 10px;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    text-align: justify;
+    margin-top: 10px;
 }
+
 
 /*-------GENERAL-------*/
-html,body{
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 20px;
-  cursor: crosshair;
-  scroll-behavior: smooth;
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    cursor: crosshair;
+    scroll-behavior: smooth;
 }
 
-/* header { */
-  /* width: 100%; */
-  /* height: 100vh; */
-  /* background-color: #222; */
-  /* float: left; */
-/* } */
+div {
+    margin: 0;
+    padding: 0;
+}
 
-section{
-  width: 100%;
-  min-height: 100%;
-  float: left;
-  position: relative;
+section {
+    width: 100%;
+    /* min-height: 100%; */
+    /* float: left; */
+    /* position: relative; */
 }
 
 h3 {
-  font-family: montserrat, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 34px;
-  color: white;
-  text-align: center;
-  padding-top: 60px;
-  padding-bottom: 40px;
+    font-family: "Century Gothic", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 
 h5 {
-  font-family: montserrat, sans-serif;
-  font-style: normal;
-  font-size: 17px;
-  text-align: center;
-  padding-top: 0px;
+    font-family: "Century Gothic", sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 0px;
 }
 
 p {
-  font-family: montserrat, sans-serif;
-  font-style: normal;
-  font-weight: 100;
-  color: black;
-  font-size: 15px;
-  text-align: justify;
+    font-family: "Century Gothic", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color: black;
+    font-size: 15px;
+    text-align: justify;
 }
 
 
 /*------- VIZ 1 SVG --------*/
 
 .dataviz1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 85%;
-  background-color: white;
-  margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    background-color: white;
+    margin-top: 100px;
 }
 
 
 /*----- VIZ 1 TEAL TITLE ------*/
 
 .title {
-  text-align: center;
-  position: relative;    
-  padding-top: 35vh;
-  padding-bottom: 0vh;
+    text-align: center;
+    position: relative;
+    padding-top: 35vh;
+    padding-bottom: 0vh;
 }
 
 .deep {
-  position: relative;
-  color: white;
+    position: relative;
+    color: white;
 }
 
 #teal-title1 {
-	height: 100vh;
-	background-color: #71BABF;
-	margin-right: -200px;
-	margin-left: -200px;
+    height: 100vh;
+    background-color: #71BABF;
+    margin: 0;
+    /* margin-right: -200px; */
+    /* margin-left: -200px; */
 }
+
 
 /*------ VIZ 1 PARAGRAPH ------*/
 
-#viz1-explain{
-	height: 70vh;	
+#viz1-explain {
+    height: 70vh;
 }
+
 .viz1text {
-	padding-left: 25vw;
-	padding-right: 25vw;
-	background-color: white;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    background-color: white;
 }
 
 
@@ -125,272 +133,293 @@ p {
 
 
 /*-LEFT SIDE IMAGES-*/
-.red{
-  background-color: white;
-  width: 50%;
-  height: 100%;
-  position: sticky;
-  top: 0px;
+
+.red {
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    position: sticky;
+    top: 0px;
 }
 
 
 /*-------------USA-------------*/
+
 .datavizleft {
-  position: sticky;
-  height: 54%;
-  width: 54%;
-  display: block;
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 283px;
+    position: sticky;
+    height: 54%;
+    width: 54%;
+    display: block;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 283px;
 }
 
 
 /*-RIGHT SIDE IMAGES-*/
-.scrolling{
-  float: right;
-  width: 50%;
-  position: sticky;
-  background-color: white;
+
+.scrolling {
+    float: right;
+    width: 50%;
+    position: sticky;
+    background-color: white;
 }
 
 #spacebottom {
-  bottom: 20px;
+    bottom: 20px;
 }
 
 a {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .dataviz2text {
-  padding-left: 40px;
-  padding-right: 210px;
-  text-align: justify;
-  font-size: 12.65px;
+    padding-left: 40px;
+    padding-right: 210px;
+    text-align: justify;
+    font-size: 12.65px;
 }
 
 .scrolldrop {
-  height: 50px;
-  width: 50px;
-  position: relative;
-  margin-left: 200px;
-  margin-top: 10px;
-  margin-bottom: 30px;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .scrolldrop:hover {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
 
 /*-------OTHER COUNTRIES-------*/
-.dataviz {
-  position: relative;
-  height: 54%;
-  width: 54%;
-  background-color: white;
 
+.dataviz {
+    position: relative;
+    height: 54%;
+    width: 54%;
+    background-color: white;
 }
+
 
 /*---- VIZ 2 TEAL TITLE ----*/
 
 #deepdive {
-  padding-top: 35vh;
-  padding-bottom: 0vh;
-  color: white;
+    padding-top: 35vh;
+    padding-bottom: 0vh;
+    color: white;
 }
 
 #teal-title2 {
-	height: 100vh;
-	background-color: #71BABF;
-	margin-right: -200px;
-	margin-left: -200px;
+    height: 100vh;
+    background-color: #71BABF;
+    margin-right: -200px;
+    margin-left: -200px;
 }
 
+
 /*---- VIZ 3 TEAL TITLE ----*/
+
 #lastdrop {
-  padding-top: 35vh;
-  padding-bottom: 0vh;
-  color: white;
+    padding-top: 35vh;
+    padding-bottom: 0vh;
+    color: white;
 }
 
 #teal-title3 {
-	height: 100vh;
-	background-color: #71BABF;
-	margin-right: -200px;
-	margin-left: -200px;
+    height: 100vh;
+    background-color: #71BABF;
+    margin-right: -200px;
+    margin-left: -200px;
 }
+
 
 /*-----------VIZ 3-----------*/
 
 #dataviz3 {
-  width: 100vw;
-  height: 100vh;
-  overflow: auto;
-  padding-top:40px;
-  min-width: 1000px;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    padding-top: 40px;
+    min-width: 1000px;
 }
 
-
-#content{
-	padding-top:50px;
-	height: 90vh;
+#content {
+    padding-top: 50px;
+    height: 90vh;
     width: 1370px;
     background-color: white;
 }
 
 .dataviz3h1 {
-  font-family: montserrat, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  color: pink;
-  padding-top: 700px;
-  text-align: center;
-  font-size: 50px;
+    font-family: "Century Gothic", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: pink;
+    padding-top: 700px;
+    text-align: center;
+    font-size: 50px;
 }
+
 
 /*--------- ALL VIZ TITLES ----------*/
 
 .title1 {
-	text-align: center;
-	color: #71BABF;
-	margin-top: 23px;
-	color: #71BABF;
+    text-align: center;
+    color: #71BABF;
+    margin-top: 23px;
+    color: #71BABF;
 }
+
 
 /*------- INBETBWEEN VIZ 1 & 2 -------*/
 
-.lastdrop{
-  background-color: #71BABF;
-  color: white;
-  position: relative;
+.lastdrop {
+    background-color: #71BABF;
+    color: white;
+    position: relative;
 }
 
+
 /*--------- VIZ 1 LINE ---------*/
+
 .hr {
-  color: #71BABF;
-  text-align: center;
+    color: #71BABF;
+    text-align: center;
 }
+
 
 /*------ BOUNCING ARROWS --------*/
 
-.downArrow{
-  position: relative;
-  left: 47%;
-  right: 47%;
-  top: 100%;
-  cursor:crosshair;
+.center {
+    margin: auto;
+}
+
+.downArrow {
+    text-align: center;
+    cursor: crosshair;
 }
 
 .downArrow:hover {
- color:#85B645 ;
+    color: #85B645;
 }
 
-.downArrow2{
-  position: relative;
-  left: 0%;
-  right: 46%;
-  top: -10px;
+.downArrow2 {
+    position: relative;
+    left: 0%;
+    right: 46%;
+    top: -10px;
 }
 
 .downArrow2:hover {
- color:#85B645 ;
+    color: #85B645;
 }
 
 .bounce {
-  -moz-animation: bounce 3s infinite;
-  -webkit-animation: bounce 3s infinite;
-  animation: bounce 3s infinite;
+    -moz-animation: bounce 3s infinite;
+    -webkit-animation: bounce 3s infinite;
+    animation: bounce 3s infinite;
 }
 
-#opening-arrow{
-	position:absolute;
-	top:90%;
+#opening-arrow {
+    position: absolute;
+    left: 48.5%;
+    top: 80%;
 }
 
-#introduction-arrow{
-	bottom:-10vh;
+#introduction-arrow {
+	position: relative;
+    top: 20%;
 }
 
-#viz1-arrow{
-	bottom:-20vh;
+#viz1-arrow {
+	position: relative;
+    top: 30%;
 }
 
-#title2-arrow{
-	bottom:-10vh;
+#title2-arrow {
+	position: relative;
+    top: 30%;
 }
 
-#viz2-arrow{
-	bottom:-20vh;
+#viz2-arrow {
+	position: relative;
+    top: 30%;
 }
 
 @-moz-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -moz-transform: translateY(0);
-    transform: translateY(0);
-  }
-
-  40% {
-    -moz-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-
-  60% {
-    -moz-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
-
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -moz-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -moz-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
 }
+
 @-webkit-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-
-  40% {
-    -webkit-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-
-  60% {
-    -webkit-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
-
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
 }
+
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-
-  40% {
-    -moz-transform: translateY(-30px);
-    -ms-transform: translateY(-30px);
-    -webkit-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-
-  60% {
-    -moz-transform: translateY(-15px);
-    -ms-transform: translateY(-15px);
-    -webkit-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
-
-/*---- VIZ 3 LEFT  ---*/
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -moz-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+    /*---- VIZ 3 LEFT  ---*/
 }
-
 
 #space1 {
-    height:10%;
-    background-color:#ff0000;
+    height: 10%;
+    background-color: #ff0000;
 }

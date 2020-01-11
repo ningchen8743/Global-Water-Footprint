@@ -1,23 +1,16 @@
-body {
-  background: white;
-  margin: 0rem;
-}
-
-
 header {
-  width: 100%;
-  padding: 0px 0px 0px 0px;
-  margin-bottom:10%;
-  /* max-width: 100%; */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    /* background-color:#ff8888; */
 }
-
 
 header video {
     top: 0px;
     left: 0px;
-    bottom: 0px;	
+    bottom: 0px;
     width: 100%;
-	clip-path: url("#video-clipPath");
+    clip-path: url("#video-clipPath");
 }
 
 #my-svg {
@@ -30,24 +23,21 @@ header video {
     padding-top: 0px;
 }
 
-
 .ocean {
-  font-family: "Century Gothic", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 60px;
+    font-family: "Century Gothic", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
 }
 
-
 .ocean2 {
-  font-family: "Century Gothic", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  margin-bottom: 0px;
+    font-family: "Century Gothic", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 0px;
 }
 
 svg rect {
-  fill: white;
+    fill: white;
 }
-
