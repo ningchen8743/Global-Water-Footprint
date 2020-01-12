@@ -2,11 +2,17 @@
     position: relative;
 }
 
-.info_box_waterdrop_img {
+.info_box_waterdrop {
     position: absolute;
-    right: 15%;
-    top: 0;
-    width: 7%;
+    top:0;
+    width:100%;
+}
+
+.info_box_waterdrop_img {
+    top:0;
+    margin-right: 10%;
+    width: 10%;
+    float:right;
 }
 
 .info_box_waterdrop:hover {
@@ -18,14 +24,15 @@
 }
 
 .info_box_msg {
-    position: absolute;
+	position:absolute;
+    bottom:-40%;
+	right:10%;
     display: none;
 }
 
 .info_box_waterdrop:hover .info_box_msg {
+    right: 15%;
     display: block;
-    top: 0;
-    right: 0;
     text-align: center;
 }
 

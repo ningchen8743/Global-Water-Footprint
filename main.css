@@ -32,6 +32,7 @@
 
 html,
 body {
+    font-family: "Century Gothic", sans-serif;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -47,13 +48,11 @@ div {
 
 section {
     width: 100%;
-    /* min-height: 100%; */
-    /* float: left; */
-    /* position: relative; */
+    margin: 0;
+    padding: 0;
 }
 
 h3 {
-    font-family: "Century Gothic", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 34px;
@@ -64,7 +63,6 @@ h3 {
 }
 
 h5 {
-    font-family: "Century Gothic", sans-serif;
     font-style: normal;
     font-size: 17px;
     text-align: center;
@@ -72,7 +70,6 @@ h5 {
 }
 
 p {
-    font-family: "Century Gothic", sans-serif;
     font-style: normal;
     font-weight: 100;
     color: black;
@@ -111,8 +108,6 @@ p {
     height: 100vh;
     background-color: #71BABF;
     margin: 0;
-    /* margin-right: -200px; */
-    /* margin-left: -200px; */
 }
 
 
@@ -132,42 +127,25 @@ p {
 /*-------- VIZ 2 SVG -------*/
 
 
-/*-LEFT SIDE IMAGES-*/
-
-.red {
-    background-color: white;
-    width: 50%;
-    height: 100%;
-    position: sticky;
-    top: 0px;
-}
-
-
 /*-------------USA-------------*/
 
-.datavizleft {
-    position: sticky;
-    height: 54%;
-    width: 54%;
-    display: block;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 283px;
+.sticky-left-div {
+    position:sticky;
+    width: 50%;
+    float: left;
+    top:0;
+}
+
+.img-usa {
+    width: 100%;
 }
 
 
 /*-RIGHT SIDE IMAGES-*/
 
-.scrolling {
-    float: right;
+.floating-right-div {
     width: 50%;
-    position: sticky;
-    background-color: white;
+    margin-left: 50%;
 }
 
 #spacebottom {
@@ -180,35 +158,9 @@ a {
 }
 
 .dataviz2text {
-    padding-left: 40px;
-    padding-right: 210px;
     text-align: justify;
-    font-size: 12.65px;
+    font-size: 14;
 }
-
-.scrolldrop {
-    height: 50px;
-    width: 50px;
-    position: relative;
-    margin-left: 200px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-
-.scrolldrop:hover {
-    opacity: 0.5;
-}
-
-
-/*-------OTHER COUNTRIES-------*/
-
-.dataviz {
-    position: relative;
-    height: 54%;
-    width: 54%;
-    background-color: white;
-}
-
 
 /*---- VIZ 2 TEAL TITLE ----*/
 
@@ -221,8 +173,6 @@ a {
 #teal-title2 {
     height: 100vh;
     background-color: #71BABF;
-    margin-right: -200px;
-    margin-left: -200px;
 }
 
 
@@ -237,30 +187,23 @@ a {
 #teal-title3 {
     height: 100vh;
     background-color: #71BABF;
-    margin-right: -200px;
-    margin-left: -200px;
 }
 
 
 /*-----------VIZ 3-----------*/
 
 #dataviz3 {
-    width: 100vw;
-    height: 100vh;
-    overflow: auto;
-    padding-top: 40px;
-    min-width: 1000px;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    overflow: scroll;	
 }
 
-#content {
-    padding-top: 50px;
-    height: 90vh;
-    width: 1370px;
-    background-color: white;
+.img-right {
+    width: 100%;
 }
 
 .dataviz3h1 {
-    font-family: "Century Gothic", sans-serif;
     font-style: normal;
     font-weight: 600;
     color: pink;
@@ -296,6 +239,9 @@ a {
     text-align: center;
 }
 
+#last-div {
+	margin-bottom: 200px;
+}
 
 /*------ BOUNCING ARROWS --------*/
 
@@ -313,10 +259,10 @@ a {
 }
 
 .downArrow2 {
-    position: relative;
-    left: 0%;
-    right: 46%;
-    top: -10px;
+    text-align: center;
+    cursor: crosshair;
+    margin-top:100px;
+    margin-bottom:100px;
 }
 
 .downArrow2:hover {
@@ -336,22 +282,22 @@ a {
 }
 
 #introduction-arrow {
-	position: relative;
+    position: relative;
     top: 20%;
 }
 
 #viz1-arrow {
-	position: relative;
+    position: relative;
     top: 30%;
 }
 
 #title2-arrow {
-	position: relative;
+    position: relative;
     top: 30%;
 }
 
 #viz2-arrow {
-	position: relative;
+    position: relative;
     top: 30%;
 }
 
