@@ -11,9 +11,6 @@ Rebecca‌ ‌Roach
 	+ what can our use of water tell us about ourselves? 
 - The overall goal was to learn how water consumption reveals both excess and undeveloped opportunities, with the ultimate aim to create urgency around collective water responsibility.
 
-## Website Link
-
-
 ## Special thanks
 Our special thanks goes to the instructor Zona Kostic and teaching fellow Giulia Zerbini, for their creative and strategic direction.
 
